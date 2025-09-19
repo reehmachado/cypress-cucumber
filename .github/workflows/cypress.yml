@@ -1,0 +1,27 @@
+name: Cypress BDD
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar Cypress com BDD
+        run: npx cypress run --browser chrome --headless
+
+
