@@ -50,9 +50,9 @@ de cenários em linguagem natural (Gherkin).
 
 &nbsp;   ``` bash
 
-&nbsp;   git clone https://github.com/reehmachado/cypress-cucumber
+&nbsp;   git clone https://github.com/seu-usuario/projeto-cypress-bdd.git
 
-&nbsp;   cd cypress-cucumber
+&nbsp;   cd projeto-cypress-bdd
 
 &nbsp;   ```
 
@@ -67,10 +67,6 @@ de cenários em linguagem natural (Gherkin).
 &nbsp;   npm install
 
 &nbsp;   ```
-
-
-
-
 
 
 
