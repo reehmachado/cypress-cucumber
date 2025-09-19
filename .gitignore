@@ -1,0 +1,30 @@
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cypress cache
+.cache/
+CypressCache/
+
+# Relatórios de testes
+reports/
+mochawesome-report/
+allure-report/
+allure-results/
+
+# Screenshots e vídeos gerados pelos testes
+cypress/screenshots/
+cypress/videos/
+
+# Arquivos temporários do Cypress
+cypress/downloads/
+cypress/logs/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

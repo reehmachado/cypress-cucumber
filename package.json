@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^15.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/tests"
+  }
+}
