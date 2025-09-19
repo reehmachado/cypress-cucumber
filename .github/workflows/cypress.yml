@@ -24,4 +24,9 @@ jobs:
       - name: Rodar Cypress com BDD
         run: npx cypress run --browser chrome --headless
 
-
+      - name: Upload de screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+           name: cypress-screenshots
+           path: cypress/screenshots
